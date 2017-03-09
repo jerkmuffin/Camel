@@ -1,0 +1,15 @@
+{
+  "uploadOnSave": true,
+  "useAtomicWrites": false,
+  "deleteLocal": false,
+  "hostname": "192.168.11.158",
+  "target": "/home/pi/camel",
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**"
+  ],
+  "username": "pi",
+  "password": "raspberry",
+  "watch": [],
+  "transport": "scp"
+}
